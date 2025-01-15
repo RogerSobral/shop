@@ -1,0 +1,55 @@
+.form-container{
+
+    width: 100%;
+   
+
+}
+
+.item_descript{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.input_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+.input_container input:focus{
+    outline: none;
+}
+
+label #btnSubmit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     gap: 1rem;
+     justify-content: flex-end;
+     margin-right: 30px; ;
+}
+
+label #btnSubmit svg{
+    color: rgb(214, 173, 252);
+    font-size: 1.5rem;
+}
+
+label #btnSubmit input{
+    width: 150px;
+    box-shadow: none;
+    background-color: rgb(214, 173, 252);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+
+
+label #btnSubmit input:hover{
+    background-color: rgb(228, 203, 252);
+}
