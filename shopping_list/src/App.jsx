@@ -16,7 +16,7 @@ function App() {
 
   const handleAdd=(data,item)=>{
     // data.push(item)
-    console.log(`dentro ${item[0]} `)
+    console.log(`dentro ${item.marca} `)
     // setData(data)
   }
 

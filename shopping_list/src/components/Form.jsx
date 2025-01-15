@@ -35,14 +35,14 @@ const Form = ({data,handleAdd}) => {
                 type="text" 
                 placeholder="Marca" 
                 value={marca}
-                onChange={(e)=>setItem(e.target.value)} />
+                onChange={(e)=>setMarca(e.target.value)} />
 
 
                 <input 
                 type="text" 
                 placeholder="Valor" 
                 value={valor}
-                onChange={(e)=>setItem(e.target.value)}/>
+                onChange={(e)=>setValor(e.target.value)}/>
 
             </div>
             <label htmlFor="register" id="btnSubmit">
