@@ -33,23 +33,31 @@ label #btnSubmit{
      margin-right: 30px; ;
 }
 
-label #btnSubmit svg{
-    color: rgb(214, 173, 252);
-    font-size: 1.5rem;
-}
-
-label #btnSubmit input{
+.changeBnt{
     width: 150px;
     box-shadow: none;
     background-color: rgb(214, 173, 252);
     color: #ffffff;
     cursor: pointer;
     transition: 0.3s;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    gap: 2px;
+    font-size: 1.2rem;
+    height: 50px;
     
+}
+
+.changeBnt svg{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
 }
 
 
 
-label #btnSubmit input:hover{
+
+
+.changeBnt:hover{
     background-color: rgb(228, 203, 252);
 }

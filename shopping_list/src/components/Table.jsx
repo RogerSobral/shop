@@ -2,11 +2,6 @@ import './Table.css'
 import { FaTrash, FaEdit } from 'react-icons/fa';
 
 const Table = ({data,handleEdit,handleDelete}) => {
-    // const data = [
-    //     { id: 1, descricao: "Notebook", marca: "Dell", valor: "R$ 4.500,00" },
-    //     { id: 2, descricao: "Smartphone", marca: "Samsung", valor: "R$ 2.300,00" },
-    //     { id: 3, descricao: "Headphone", marca: "Sony", valor: "R$ 350,00" },
-    //   ];
 
     
 
